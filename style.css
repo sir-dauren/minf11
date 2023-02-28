@@ -2,171 +2,78 @@
     margin: 0;
     padding: 0;
 }
-header{
-    margin: 0 auto;
-    width: 1440px;
-}
-.top_head{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 70px;
-    background-color: black;
-}
-.logo{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    margin-left: 30px;
-}
-.logo h3{
-    color: aliceblue;
-}
-.search{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    margin-right: 30px;
-}
 
-.nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header{
     width: 100%;
     height: 50px;
-    background-color: blanchedalmond;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.nav ul{
-    list-style-type: none;
-}
-.nav ul li{
-    float: left;
-    margin-right: 30px;
+header h2{
+    color: aliceblue;
     margin-left: 30px;
 }
-.nav ul li a{
-    text-decoration: none;
-    color: black;
-}
-
 section{
     display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-    width: 1440px;
+    width: 80%;
+    height: 500px;
+    margin: 20px auto;
+}
+.foto{
+    width: 30%;
     height: 100%;
-    background-color: beige;
-}
-.sidebar-left{
-    margin-top: 20px;
-    width: 300px;
-}
-.sidebar-right{
-    margin-top: 20px;
-    width: 300px;
     display: flex;
     justify-content: center;
 }
-.baner{
-    text-align: center;
-    width: 100%;
-    height: 225px;
-    background-color: bisque;
-    padding: 10px;
-    padding-bottom: 10px;
-}
-.baner img{
-    width: 250px;
-    margin-bottom: 10px;
-    border: 2px solid rgb(73, 255, 2);
-}
-.category{
-    list-style-type: none;
-}
-.category li{
-    background-color: bisque;
-    border-bottom: 1px solid black;
-    padding: 10px;
-}
-
-.category li:hover{
-    background-color: rgb(252, 195, 126);
-}
-
-.category li a{
-   text-decoration: none;
-   color: black; 
-}
-.content{
-    width: 700px;
-    margin-top: 10px;
+.foto img{
+    width: 90%;
 
 }
-.content img{
-    float: left;
-    width: 120px;
-}
-.post{
-    width: 100%;
-    border-bottom: 1px solid rgb(247, 136, 0);
-    margin-bottom:30px;
-    padding-bottom: 20px;
-    text-align: justify;
-}
-
-.post p{
-    margin-bottom: 20px;
-}
-.post img{
-    margin: 5px 5px 0 0;
-    border: 1px solid rgb(90, 255, 115);
-}
-.button{
-    text-decoration: none;
-    background-color: rgb(165, 255, 138);
-    border-radius: 5px;
-    color: rgb(0, 0, 0);
-    padding: 10px;
-}
-
-footer{
+.inf{
     display: flex;
-    justify-content: space-around;
-    background-color: rgb(74, 73, 73);
-    color: aliceblue;
-    margin: 0 auto;
-    width: 1440px;
-}
-.contacts-info{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    width: 50%;
-    height: 100px;
-
-}
-.copy{
-    display: flex;
     justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 100px;
-    
+    width: 70%;
+    height: 100%;
+    background-color: rgb(1, 218, 204);
+    text-align: center;
+    font-size: 25px;
 }
-.search input[type=text]{
-    height: 25px;
-    border-radius: 5px;
+
+.inf h2{
+    margin-left: 30px;
 }
-.search input[type=submit]{
-    height: 30px;
-    padding: 0px 10px 0 10px;
-    background-color:rgb(165, 255, 138);
-    border-radius: 5px;
+.inf ul{
+    list-style-type:square;
+    margin-top: 10px;
+}
+.name{
+    width: 100%;
+   height: 33%;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+.skils{
+    height: 33%;
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+}
+.contacts{
+    margin-top: 10px;
+    height: 33%;
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+}
+.click_me{
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(0, 57, 52);
+    color: aliceblue;
+    border-radius: 10px;
 }
