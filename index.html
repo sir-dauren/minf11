@@ -6,38 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TDK</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <h2>WEB-developer</h2>
-    </header>
-    <section>
-        <div class="foto">
-            <img src="img/foto.jpeg" alt="">
-        </div>
-        <div class="inf">
-            <div class="name">
-                <h1>Ташимов Даурен Кабдешович</h1>
-            </div>
-            <h5>SKILLS</h5>
-            <div class="skils">
-                <ul>
-                    <li>html</li>
-                    <li>css</li>
-                    <li>js</li>
-                    <li>React</li>
-                    <li>PHP</li>
-                    <li>Latavel</li>
-                </ul>
-            </div>
-            <div class="contacts">
-                <h5>ПО ВСЕМ ВОПРОСАМ ЗВОНИТЕ ПО НОМЕРУ</h5>
-                <a class="click_me" href="tel:87057088089">87057088089</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="navbar bg-body-tertiary">
+                    <form class="container-fluid justify-content-start">
+                      <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-outline-success me-2" type="button">Contacts</button>
+                    </form>
+                  </nav>
             </div>
         </div>
-    </section>
-    <footer>
-
-    </footer>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 content">
+                <div class="card mb-3" style="max-width: 840px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="img/foto.jpeg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">WEB - DEVELOPER</h5>
+                          <p class="card-text">Ташимов Даурен</p>
+                          <p class="card-text">Веб-разработчик — специалист, который создаёт новые и поддерживает уже существующие сайты. Он помогает заказчику решить задачу оптимальным способом, пишет код, тестирует его и оценивает результаты</p>
+                          <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                            <li>PHP</li>
+                            <li>Laravel</li>
+                            <li>React</li>
+                        </ul>
+                          <p class="card-text"><small class="text-muted"><a class="btn btn-success" href="tel:87057088089">tel: +77057088089</a></small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Обратная связь</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <input type="phone" name="phone" placeholder="+7(705)7088089">
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Отправить</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

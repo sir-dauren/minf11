@@ -2,78 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
-header{
-    width: 100%;
-    height: 50px;
-    background-color: black;
+.content{
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: center;
-}
-header h2{
-    color: aliceblue;
-    margin-left: 30px;
-}
-section{
-    display: flex;
-    width: 80%;
-    height: 500px;
-    margin: 20px auto;
-}
-.foto{
-    width: 30%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-}
-.foto img{
-    width: 90%;
-
-}
-.inf{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 70%;
-    height: 100%;
-    background-color: rgb(1, 218, 204);
-    text-align: center;
-    font-size: 25px;
-}
-
-.inf h2{
-    margin-left: 30px;
-}
-.inf ul{
-    list-style-type:square;
-    margin-top: 10px;
-}
-.name{
     width: 100%;
-   height: 33%;
-   display: flex;
-   align-items: center;
-   justify-content: center; 
-}
-.skils{
-    height: 33%;
-   display: flex;
-   align-items: center; 
-   justify-content: center;
-}
-.contacts{
-    margin-top: 10px;
-    height: 33%;
-   display: flex;
-   align-items: center; 
-   justify-content: center;
-}
-.click_me{
-    text-decoration: none;
-    margin-left: 10px;
-    padding: 10px;
-    background-color: rgb(0, 57, 52);
-    color: aliceblue;
-    border-radius: 10px;
+    height: 500px;
 }
